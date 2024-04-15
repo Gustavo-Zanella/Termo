@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="unPrincipal.pas"/>
+    <File Path="unPrincipal.dfm"/>
+    <File Path="unTermo.pas"/>
+    <File Path="unTermo.dfm"/>
+  </ProjectSortOrder>
+	<Transactions>
+    <Transaction>2024/04/15 11:21:58.000.411,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uLoading.pas=</Transaction>
+    <Transaction>2024/04/15 15:21:30.000.701,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uPrincipal.pas=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unPrincipal.pas</Transaction>
+    <Transaction>2024/04/15 15:21:30.000.701,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uPrincipal.dfm=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unPrincipal.dfm</Transaction>
+    <Transaction>2024/04/15 15:21:35.000.812,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uTermo.dfm=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unTermo.dfm</Transaction>
+    <Transaction>2024/04/15 15:21:35.000.812,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uTermo.pas=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unTermo.pas</Transaction>
+  </Transactions>
+</BorlandProject>

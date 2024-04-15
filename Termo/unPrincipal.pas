@@ -1,0 +1,47 @@
+unit unPrincipal;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Buttons, ExtCtrls;
+
+type
+  TFrmPrincipal = class(TForm)
+    btnJogar: TBitBtn;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Bevel1: TBevel;
+    Bevel2: TBevel;
+    Bevel3: TBevel;
+    Bevel4: TBevel;
+    Bevel5: TBevel;
+    procedure btnJogarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+uses DateUtils, unTermo;
+
+{$R *.dfm}
+
+procedure TFrmPrincipal.btnJogarClick(Sender: TObject);
+begin
+  with TFrmTermo.Create(Self) do
+  begin
+    ShowModal;
+    Release;
+  end;
+end;
+
+end.
