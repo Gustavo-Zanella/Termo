@@ -75,17 +75,19 @@ implementation
 
 {$R *.dfm}
 
-uses unPrincipal;
+uses unPrincipal, unFuncionamento;
 
 //Mostrar como o jogo funciona
 procedure TFrmTermo.SpeedButton1Click(Sender: TObject);
 begin
-  MessageDlg('Você tem seis chances para adivinhar ' + #13#10 +
-             'a palavra oculta, nas quais, em cada ' + #13#10 +
-             'uma delas, pode arriscar uma palavra'  + #13#10 +
-             'de cinco letras.', mtInformation, [mbOK], 0);
+  with TfrmFuncionamento.Create(Self) do
+  begin
+    ShowModal;
+    Release;
+  end;
 end;
 
+//Verifica se a palavra pode ser digitada
 function TFrmTermo.VerificaPalavraDigitada(sPalavraDigitada: string): boolean;
 begin
   Result := False;
@@ -103,7 +105,7 @@ begin
   slListaPalavras.LoadFromFile(ExtractFilePath(Application.ExeName)+'Termo.txt');
 end;
 
-
+//Verifica a quantidade de vogáis de uma palavra
 function TFrmTermo.GetQuantidadeVogais(sPalavraDigitada: string): integer;
 const
   aVogal : array[0..4] of Char = ('A', 'E', 'I', 'O', 'U');
@@ -157,6 +159,7 @@ begin
   FrmPrincipal.Close;
 end;
 
+//Criação do Form
 procedure TFrmTermo.FormCreate(Sender: TObject);
   var
   iLinhas : Integer;
@@ -167,6 +170,7 @@ begin
   RandPalavra;
 end;
 
+//Recebe o que foi digitado
 procedure TFrmTermo.EdtPalavraKeyPress(Sender: TObject; var Key: Char);
 begin
   //Permite apenas letras de A até Z, e apenas 5 litras.
@@ -177,6 +181,7 @@ begin
    end;
 end;
 
+//Faz a verificação das letras
 procedure TFrmTermo.SeparaLetras(oPanel: TPanel);
 var
   iIdx, iIdx2: Integer;
@@ -250,7 +255,7 @@ begin
   end;
 end;
 
-//Verifica se o jogador que jogar mais uma partida
+//Verifica se o jogador deseja jogar mais uma partida
 procedure TFrmTermo.JogarNovamente;
 var
   iIdx : Integer;

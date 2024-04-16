@@ -5,12 +5,17 @@
     <File Path="unPrincipal.dfm"/>
     <File Path="unTermo.pas"/>
     <File Path="unTermo.dfm"/>
+    <File Path="unFuncionamento.pas"/>
+    <File Path="unFuncionamento.dfm"/>
   </ProjectSortOrder>
 	<Transactions>
     <Transaction>2024/04/15 11:21:58.000.411,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uLoading.pas=</Transaction>
-    <Transaction>2024/04/15 15:21:30.000.701,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uPrincipal.pas=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unPrincipal.pas</Transaction>
-    <Transaction>2024/04/15 15:21:30.000.701,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uPrincipal.dfm=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unPrincipal.dfm</Transaction>
-    <Transaction>2024/04/15 15:21:35.000.812,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uTermo.dfm=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unTermo.dfm</Transaction>
-    <Transaction>2024/04/15 15:21:35.000.812,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uTermo.pas=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unTermo.pas</Transaction>
+    <Transaction>2024/04/15 15:21:30.000.701,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unPrincipal.pas=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uPrincipal.pas</Transaction>
+    <Transaction>2024/04/15 15:21:30.000.701,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unPrincipal.dfm=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uPrincipal.dfm</Transaction>
+    <Transaction>2024/04/15 15:21:35.000.812,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unTermo.dfm=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uTermo.dfm</Transaction>
+    <Transaction>2024/04/15 15:21:35.000.812,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unTermo.pas=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\uTermo.pas</Transaction>
+    <Transaction>2024/04/15 16:12:12.345,=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\Unit1.pas</Transaction>
+    <Transaction>2024/04/15 16:12:47.006,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unFuncionamento.pas=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\Unit1.pas</Transaction>
+    <Transaction>2024/04/15 16:12:47.006,C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\unFuncionamento.dfm=C:\Users\Gustavo Zanella\Desktop\Termo-main\Termo\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

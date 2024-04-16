@@ -3,8 +3,8 @@ object FrmPrincipal: TFrmPrincipal
   Top = 312
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  ClientHeight = 425
-  ClientWidth = 376
+  ClientHeight = 415
+  ClientWidth = 387
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -109,7 +109,7 @@ object FrmPrincipal: TFrmPrincipal
     Height = 90
   end
   object btnJogar: TBitBtn
-    Left = 102
+    Left = 104
     Top = 290
     Width = 184
     Height = 87
